@@ -4,7 +4,7 @@ body{
     background-color: #000;
     color: #eee;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 15px;
 }
 a{
     text-decoration: none;
@@ -65,7 +65,7 @@ header a{
     line-height: 1.3em;
 }
 .carousel .list .item .topic{
-    color: #f1683a;
+    color: #f74e16;
 }
 .carousel .list .item .buttons{
     display: grid;
@@ -165,7 +165,7 @@ header a{
     transform: translateY(50px);
     filter: blur(20px);
     opacity: 0;
-    animation: showContent .5s 1s linear 1 forwards;
+    animation: showContent 0.5s 1s linear 1 forwards;
 }
 @keyframes showContent{
     to{
